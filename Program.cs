@@ -40,6 +40,7 @@ namespace Atv3.Entities.Enums
                     shapes.Add(new Circle(radius, color));
                 }
             }
+            Console.WriteLine();
             Console.WriteLine("SHAPES AREAS");
             foreach (Shape shape in shapes)
             {
